@@ -1,13 +1,17 @@
 package data;
-import utility.ArraySet;
+
+import java.util.Iterator;
+import java.util.Set;
+import java.util.TreeSet;
+
 
 /**
  * <p>Description: estende la classe Attribute e rappresenta un attributo discreto(categorico)
  * @author sante
  *
  */
-class DiscreteAttribute extends Attribute {
-	private String values[]; // array di stringhe,una per ciascun valore del dominio discreto.
+class DiscreteAttribute extends Attribute implements Iterable<String>{
+	private TreeSet<String> values= new TreeSet<String>(); // Set di stringhe ordinato attraverso un albero.
 							// i valori del dominio sono memorizzati in values seguendo un ordine lessicografico
 	
 	/**
@@ -16,24 +20,20 @@ class DiscreteAttribute extends Attribute {
 	 * @param index identificativo numerico dell'attributo
 	 * @param values array di oggetti di tipo String che rappresentano il dominio discreto dell'attributo
 	 */
-	DiscreteAttribute(String name,int index,String values[]){
+	DiscreteAttribute(String name,int index,String value[]){
 		super(name, index);
-		this.values=values;
+		for(int i=0;i<value.length;i++) {
+			this.values.add(value[i]);
+		}
 	}
 	/**
-	 * @return dimensione di values
+	 * Restituisce la dimensione di values
+	 * @return numero di valori discreti nel dominio dell'attributo
 	 */
 	int getNumberOfDistinctValues() {
-		return values.length;
+		return values.size();
 	}
-	/**
-	 * Restituisce values[i]
-	 * @param i posizione di un valore in values
-	 * @return valore discreto in posizione "i" di values
-	 */
-	String getValue(int i) {
-		return values[i];
-	}
+
 	/**
 	 * Determina il numero di volte che il valore v compare in corrispondenza dell'attributo
 	 * corrente(indice di colonna) negli esempi memorizzati in data e indicizzate(per riga) da idList
@@ -42,18 +42,19 @@ class DiscreteAttribute extends Attribute {
 	 * @param v valore discreto 
 	 * @return numero di occorrenze del valore discreto
 	 */
-	int frequency(Data data,ArraySet idList,String v) {
+	int frequency(Data data,Set<Integer> idList,String v) {
 		int numberOccurrences=0;
-		int r=0; 
-		while(r<data.getNumberOfExamples())
-		{
-			if(idList.get(r))
-			{
-					if(data.getAttributeValue(r,getIndex()).equals(v))
-						numberOccurrences++;		
+		Iterator<Integer> it = idList.iterator();
+		while(it.hasNext()) {
+			if(data.getAttributeValue(it.next(),getIndex()).equals(v)){
+				numberOccurrences++;
 			}
-			r++;
 		}
 		return numberOccurrences;
+	}
+		
+	@Override
+	public Iterator<String> iterator() {
+		return values.iterator();
 	}
 }
