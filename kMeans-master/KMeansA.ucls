@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true" 
+  router="FAN">  
+  <class id="1" language="java" name="data.Attribute" project="kMeans-master" 
+    file="/kMeans-master/src/data/Attribute.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2491" y="1845"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="KMeans" project="kMeans-master" file="/kMeans-master/KmeansClient/src/KMeans.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1720" y="155"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="database.DatabaseConnectionException" project="kMeans-master" 
+    file="/kMeans-master/src/database/DatabaseConnectionException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="189" y="110"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="mining.ClusterSet" project="kMeans-master" 
+    file="/kMeans-master/src/mining/ClusterSet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2307" y="717"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="database.TableSchema" project="kMeans-master" 
+    file="/kMeans-master/src/database/TableSchema.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2174" y="119"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="database.DbAccess" project="kMeans-master" 
+    file="/kMeans-master/src/database/DbAccess.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2688" y="699"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="data.Item" project="kMeans-master" file="/kMeans-master/src/data/Item.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2263" y="1528"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="database.TableSchema.Column" project="kMeans-master" 
+    file="/kMeans-master/src/database/TableSchema.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2060" y="522"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="keyboardinput.Keyboard" project="kMeans-master" 
+    file="/kMeans-master/src/keyboardinput/Keyboard.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="564" y="307"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="mining.Cluster" project="kMeans-master" 
+    file="/kMeans-master/src/mining/Cluster.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2318" y="1034"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="server.MultiServer" project="kMeans-master" 
+    file="/kMeans-master/src/server/MultiServer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="883" y="128"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="data.Tuple" project="kMeans-master" file="/kMeans-master/src/data/Tuple.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2263" y="1289"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="KMeans.TabbedPane" project="kMeans-master" 
+    file="/kMeans-master/KmeansClient/src/KMeans.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1731" y="668"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="data.DiscreteAttribute" project="kMeans-master" 
+    file="/kMeans-master/src/data/DiscreteAttribute.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2302" y="2149"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="database.Example" project="kMeans-master" 
+    file="/kMeans-master/src/database/Example.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2756" y="1846"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="data.DiscreteItem" project="kMeans-master" 
+    file="/kMeans-master/src/data/DiscreteItem.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2013" y="1810"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="data.Data" project="kMeans-master" file="/kMeans-master/src/data/Data.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2680" y="1444"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="data.ContinuousAttribute" project="kMeans-master" 
+    file="/kMeans-master/src/data/ContinuousAttribute.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2653" y="2135"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="database.EmptySetException" project="kMeans-master" 
+    file="/kMeans-master/src/database/EmptySetException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1079" y="110"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="20" language="java" name="database.QUERY_TYPE" project="kMeans-master" 
+    file="/kMeans-master/src/database/QUERY_TYPE.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1285" y="119"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="21" language="java" name="KMeans.TabbedPane.JPanelCluster" project="kMeans-master" 
+    file="/kMeans-master/KmeansClient/src/KMeans.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1778" y="1003"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="mining.KMeansMiner" project="kMeans-master" 
+    file="/kMeans-master/src/mining/KMeansMiner.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2395" y="146"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="database.TableData" project="kMeans-master" 
+    file="/kMeans-master/src/database/TableData.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2712" y="128"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="data.ContinuosItem" project="kMeans-master" 
+    file="/kMeans-master/src/data/ContinuosItem.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2279" y="1810"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="data.OutOfRangeSampleSize" project="kMeans-master" 
+    file="/kMeans-master/src/data/OutOfRangeSampleSize.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1497" y="110"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="database.NoValueException" project="kMeans-master" 
+    file="/kMeans-master/src/database/NoValueException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1937" y="110"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <nesting id="27">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="13"/>  
+  </nesting>  
+  <generalization id="28">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <association id="29">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="30" name="tuple"/>      
+      <multiplicity id="31" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="32">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="33" name="attribute"/>      
+      <multiplicity id="34" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="35">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="36" name="C"/>      
+      <multiplicity id="37" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="38">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="21"/>  
+  </nesting>  
+  <generalization id="39">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <association id="40">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="41" name="db"/>      
+      <multiplicity id="42" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="43">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="44" name="attributeSet"/>      
+      <multiplicity id="45" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="46">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="47">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <association id="48">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="49" name="db"/>      
+      <multiplicity id="50" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="51">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="52" name="centroid"/>      
+      <multiplicity id="53" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="54">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="55" name="C"/>      
+      <multiplicity id="56" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="57">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="58" name="panelFile"/>      
+      <multiplicity id="59" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="60">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="8"/>  
+  </nesting>  
+  <association id="61">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="62" name="tableSchema"/>      
+      <multiplicity id="63" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="64">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="65" name="panelDB"/>      
+      <multiplicity id="66" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="67">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="68" name="data"/>      
+      <multiplicity id="69" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
