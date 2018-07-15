@@ -6,7 +6,7 @@ import java.io.Serializable;
  * <p>Description:la classe Attributo modella le entità attributo,
  * non può essere istanziata e ha lo scopo di essere richiamata 
  * come superclasse per una nuova classe.
- * @author sante
+ * @author Daniele Bufalo
  */
 abstract class Attribute implements Serializable{
 	private String name; //nome simbolico dell'attributo

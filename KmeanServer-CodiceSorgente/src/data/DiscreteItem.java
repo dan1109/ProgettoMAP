@@ -3,7 +3,7 @@ package data;
 /**
  * <p>Description: Estende la classe Item e rappresenta una coppia Attributo,valore discreto.
  * Esempio Outlook="Sunny"
- * @author sante
+ * @author Daniele Bufalo
  *
  */
 class DiscreteItem extends Item {

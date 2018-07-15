@@ -17,7 +17,7 @@ import mining.KMeansMiner;
 
 /**
  * <p>Description: tale classe rappresenta un gestore di un Client
- * @author sante
+ * @author Daniele Bufalo
  *
  */
 public class ServerOneClient extends Thread{

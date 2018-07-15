@@ -20,7 +20,7 @@ import database.TableSchema.Column;
 
 /**
  * <p>Description:La classe Data modella l'insieme di transazioni (o tuple)
- * @author sante
+ * @author Daniele Bufalo
  */
 public class Data {
 		private List<Example> data = new ArrayList<Example>();

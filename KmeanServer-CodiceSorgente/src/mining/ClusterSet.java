@@ -7,7 +7,7 @@ import data.Tuple;
 
 /**
  * <p>Description: Rappresenta un insieme di cluster (determinati da  k-means) 
- * @author sante
+ * @author Daniele Bufalo
  *
  */
 public class ClusterSet  implements Serializable{

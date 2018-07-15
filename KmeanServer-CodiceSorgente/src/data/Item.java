@@ -7,7 +7,7 @@ import java.util.Set;
 
 /**
  * <p>Description:Modella un generico item(coppia (attributo,valore),per esempio Outlook="Sunny");
- * @author sante
+ * @author Daniele Bufalo
  */
 public abstract class Item implements Serializable{
 	private Attribute attribute; //attributo coinvolto nell'item

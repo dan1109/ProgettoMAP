@@ -8,7 +8,7 @@ import data.Tuple;
 
 /**
  * <p>Description:Rappresenta un insieme di righe di data con il relativo centroide.
- * @author sante
+ * @author Daniele Bufalo
  *
  */
 public class Cluster implements Serializable{

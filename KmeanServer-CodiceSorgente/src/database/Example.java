@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * Modella una transazione letta dalla base di dati
- * @author sante
+ * @author Daniele Bufalo
  *
  */
 public class Example implements Comparable<Example>{

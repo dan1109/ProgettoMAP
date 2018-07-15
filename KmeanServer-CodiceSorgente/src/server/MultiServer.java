@@ -10,7 +10,7 @@ import server.ServerOneClient;
 
 /**
  * <p>Description:Tale classe definisce un server che puo' servire piu Client
- * @author sante
+ * @author Daniele Bufalo
  *
  */
 public class MultiServer {

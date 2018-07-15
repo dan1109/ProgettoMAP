@@ -2,7 +2,7 @@ package database;
 
 /**
  * Eccezione per modellare la restituzione di un resultset vuoto.
- * @author sante
+ * @author Daniele Bufalo
  *
  */
 public class EmptySetException extends Exception{

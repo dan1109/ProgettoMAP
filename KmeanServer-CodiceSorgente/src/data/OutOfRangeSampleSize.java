@@ -3,7 +3,7 @@ package data;
 /**
  * <p>Description: Modella un'eccezione controllata da considerare qualora il numero k di cluster inserito
  * da tastiera sia maggiore rispetto al numero di controidi generabili dall'insieme di transazioni.
- * @author sante
+ * @author Daniele Bufalo
  */
 public class OutOfRangeSampleSize extends Exception {
 	/**

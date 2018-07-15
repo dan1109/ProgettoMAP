@@ -2,7 +2,7 @@ package database;
 
 /**
  * Eccezione in caso di fallimento nella connessione al database
- * @author sante
+ * @author Daniele Bufalo
  *
  */
 public class DatabaseConnectionException extends Exception{

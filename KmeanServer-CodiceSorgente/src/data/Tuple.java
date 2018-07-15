@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 /**
  * <p>Description: rappresenta una tupla come una coppia attributo-valore
- * @author sante
+ * @author Daniele Bufalo
  *
  */
 public class Tuple implements Serializable{

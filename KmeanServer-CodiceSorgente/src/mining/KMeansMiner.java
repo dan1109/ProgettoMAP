@@ -12,7 +12,7 @@ import data.OutOfRangeSampleSize;
 
 /**
  * <p>Description: Include l'implementazione dell’algoritmo kmeans
- * @author sante
+ * @author Daniele Bufalo
  *
  */
 public class KMeansMiner implements Serializable{

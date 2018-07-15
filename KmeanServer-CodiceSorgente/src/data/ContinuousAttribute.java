@@ -4,7 +4,7 @@ package data;
  * <p>Description:Estende la classe Attribute e modella un attributo continuo(numerico).
  * Tale classe include i metodi per la “normalizzazione” del dominio dell'attributo nell'intervallo [0,1] 
  * al fine da rendere confrontabili attributi aventi domini diversi 
- * @author sante
+ * @author Daniele Bufalo
  *
  */
 class ContinuousAttribute extends Attribute {

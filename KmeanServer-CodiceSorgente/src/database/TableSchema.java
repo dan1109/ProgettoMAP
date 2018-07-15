@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  * Modella lo schema di una tabella nel database relazionale
- * @author sante
+ * @author Daniele Bufalo
  */
 public class TableSchema {
 	DbAccess db;

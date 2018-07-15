@@ -24,7 +24,7 @@ import javax.swing.JTextField;
 
 /**
  * <p>Description:Tale classe definisce una JAPPLET
- * @author sante
+ * @author Daniele Bufalo
  */
 public class KMeans extends JFrame{
 	private ObjectOutputStream out; 

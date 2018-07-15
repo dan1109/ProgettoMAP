@@ -2,7 +2,7 @@ package data;
 
 /**
  * <p>Description:Estende la classe Item e modella una coppia Attributo continuo , valore numerico
- * @author sante
+ * @author Daniele Bufalo
  *
  */
 class ContinuosItem extends Item{

@@ -15,7 +15,7 @@ import database.TableSchema.Column;
 /**
  * Modella l’insieme di transazioni collezionate in una tabella. 
  * La singola transazione è modellata dalla classe Example.
- * @author sante
+ * @author Daniele Bufalo
  */
 public class TableData {
 
